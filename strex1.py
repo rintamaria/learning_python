@@ -1,0 +1,9 @@
+data="myprogram.exe"
+print(data[5:10])
+truncaateddat=data.replace('.exe','')
+print(truncaateddat)
+length=len(data)
+middle=length//2
+mid=data[middle]
+print(mid)
+print(data[::-1])
